@@ -1,5 +1,5 @@
 {
-  "name": "xefi/faker-php-en-us",
+  "name": "xefi/faker-php-locales-en-us",
   "type": "library",
   "description": "Faker extension to include en_US locale",
   "keywords": [
