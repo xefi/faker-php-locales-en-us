@@ -20,11 +20,9 @@ final class CompanyExtensionTest extends TestCase
 
     public function testEin()
     {
-        $faker = new Container(false);
-
         $results = [];
         for ($i = 0; $i < 100; $i++) {
-            $results[] = $faker->ein();
+            $results[] = $this->faker->ein();
         }
 
         foreach ($results as $result) {

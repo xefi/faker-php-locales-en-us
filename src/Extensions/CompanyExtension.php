@@ -2,11 +2,15 @@
 
 namespace Xefi\Faker\EnUs\Extensions;
 
-use Xefi\Faker\Calculators\Luhn;
 use Xefi\Faker\Extensions\Extension;
 
 class CompanyExtension extends Extension
 {
+    public function getLocale(): string|null
+    {
+        return 'en_US';
+    }
+
     private array $companies = [
         "Oakridge Enterprises", "SummitPeak Group", "LibertyWorks Industries",
         "Pioneer Dynamics", "Northstar Solutions", "Heritage Valley Financial",
