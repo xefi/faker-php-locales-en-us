@@ -7,6 +7,7 @@ use Xefi\Faker\EnUs\Extensions\ColorsExtension;
 use Xefi\Faker\EnUs\Extensions\CompanyExtension;
 use Xefi\Faker\EnUs\Extensions\FinancialExtension;
 use Xefi\Faker\EnUs\Extensions\PersonExtension;
+use Xefi\Faker\EnUs\Extensions\PhoneExtension;
 use Xefi\Faker\EnUs\Extensions\TextExtension;
 use Xefi\Faker\Providers\Provider;
 
@@ -19,6 +20,7 @@ class FakerEnUsServiceProvider extends Provider
             CompanyExtension::class,
             FinancialExtension::class,
             PersonExtension::class,
+            PhoneExtension::class,
             ColorsExtension::class,
             TextExtension::class,
         ]);
